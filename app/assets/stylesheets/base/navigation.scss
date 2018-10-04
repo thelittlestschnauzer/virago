@@ -1,0 +1,37 @@
+.logo {
+  display: block;
+  margin: 0 auto;
+  height: 200px;
+}
+
+#nav-menu {
+  border-top: 1px solid #48547f;
+  border-bottom: 1px solid #48547f;
+}
+
+.table {
+  display: table;
+  margin: 0 auto;
+}
+
+ul#horizontal-list {
+  width: 100%;
+  list-style: none;
+  padding-top: 10px;
+  text-align: center;
+}
+
+ul#horizontal-list li {
+  display: inline;
+  margin: 0px 20px 0px 10px;
+  text-transform: uppercase;
+}
+
+ul#horizontal-list li a {
+    color: #48547f;
+    font-size: 12px;
+    &:hover {
+      text-decoration: none;
+      color: #9d9ea2;
+    }
+}
